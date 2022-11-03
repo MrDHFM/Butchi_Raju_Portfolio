@@ -6,18 +6,20 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
+import movie from "../../Images/Movie.png";
+import advice from "../../Images/advice.png";
 import "./Projects.css";
 
 const projectData = [
   {
-    imgUrl: "",
+    imgUrl: movie,
     alt: "Movie Ticket Booking",
     projectName: "Movie Ticket Booking",
     github: "https://github.com/MrDHFM/Movie_Ticket_booking.git",
     live: " https://candid-unicorn-68d455.netlify.app/",
   },
   {
-    imgUrl: "",
+    imgUrl: advice,
     alt: "Advice App",
     projectName: "Advice App",
     github: "https://github.com/MrDHFM/advice_app_react.git",
@@ -54,8 +56,9 @@ const Projects = () => {
                   <CardMedia
                     component="img"
                     alt={project.alt}
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    height="200"
+                    image={project.imgUrl}
+                    sx={{ borderRadius: "20px" }}
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">

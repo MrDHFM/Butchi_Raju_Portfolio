@@ -1,4 +1,4 @@
 .App {
   background-color: rgb(234, 234, 234);
-  min-width: 1080px;
+  width: fit-content;
 }

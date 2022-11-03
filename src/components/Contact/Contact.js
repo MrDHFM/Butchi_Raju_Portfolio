@@ -63,34 +63,38 @@ const Contact = () => {
           <div>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Lizard
+                Contact
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
                 If you have anything for me, be it question or offer, feel free
                 to reach out to me through this form and I will get back to you
-                as soon as possible
+                as soon as possible Also I'm available for collaborations. Reach
+                out let's build something fun
               </Typography>
             </CardContent>
             <CardActions>
-              <a href="https://github.com/MrDHFM">
-                {" "}
-                <IconButton aria-label="upload picture" component="label">
-                  <GitHubIcon />
-                </IconButton>
-              </a>
-              <a href="https://www.linkedin.com/in/butchi-raju-jeelakarra-8033841b5/">
-                <IconButton aria-label="upload picture" component="label">
-                  <LinkedInIcon />
-                </IconButton>
-              </a>
+              <div>
+                <div>
+                  <h3>For social media, you can also reach</h3>
+                </div>
+                <a href="https://github.com/MrDHFM">
+                  {" "}
+                  <IconButton aria-label="upload picture" component="label">
+                    <GitHubIcon />
+                  </IconButton>
+                </a>
+                <a href="https://www.linkedin.com/in/butchi-raju-jeelakarra-8033841b5/">
+                  <IconButton aria-label="upload picture" component="label">
+                    <LinkedInIcon />
+                  </IconButton>
+                </a>
 
-              <a href="https://twitter.com/JButchiraju">
-                <IconButton aria-label="upload picture" component="label">
-                  <TwitterIcon />
-                </IconButton>
-              </a>
+                <a href="https://twitter.com/JButchiraju">
+                  <IconButton aria-label="upload picture" component="label">
+                    <TwitterIcon />
+                  </IconButton>
+                </a>
+              </div>
             </CardActions>
           </div>
         </Card>
