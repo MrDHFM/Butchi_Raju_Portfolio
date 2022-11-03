@@ -1,0 +1,25 @@
+#formSubmit {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+#outlined-basic {
+  width: 50%;
+  border-radius: 90px;
+}
+#filled-textarea {
+  width: 150px;
+}
+#submit {
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  align-self: center;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1.5px black;
+}
+#submit:hover {
+  background-color: black;
+}
