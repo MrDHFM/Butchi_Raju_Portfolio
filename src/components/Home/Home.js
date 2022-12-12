@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Stack from "@mui/material/Stack";
-import resume from "../../Images/Butchi raju_resume.pdf";
+import resume from "../../Images/Butchi raju_ExpResume.pdf";
 
 import "./Home.css";
 import { Card } from "@mui/material";
@@ -25,12 +25,12 @@ const Home = () => {
           <p>HELLO, I'M</p>
         </div>
         <div>
-          <h3>BUTCHI RAJU.J</h3>
+          <h3>J.BUTCHI RAJU</h3>
         </div>
         <div>
           <p>
             A frontend developer with passion for creating interactive and easy
-            to use applications on the wed
+            to use applications on the web
           </p>
         </div>
         <div>
