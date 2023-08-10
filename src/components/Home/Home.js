@@ -6,7 +6,6 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Stack from "@mui/material/Stack";
 import resume from "../../Images/ButchiRaju_Exp.pdf";
-
 import "./Home.css";
 import { Card } from "@mui/material";
 
@@ -30,7 +29,7 @@ const Home = () => {
         <div>
           <p>
             A frontend developer with passion for creating interactive and easy
-            to use applications on the web
+            to use applications on the web.
           </p>
         </div>
         <div>
