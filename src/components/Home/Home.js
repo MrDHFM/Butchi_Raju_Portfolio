@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Stack from "@mui/material/Stack";
-import resume from "../../Images/ResumeExp.pdf";
+import resume from "../../Images/MyResumeDE.pdf";
 
 import "./Home.css";
 import { Card } from "@mui/material";
