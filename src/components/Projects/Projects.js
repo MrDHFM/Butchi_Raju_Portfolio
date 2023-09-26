@@ -7,10 +7,26 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 import movie from "../../Images/Movie.png";
+import twitter from "../../Images/twitter.png";
+import store from "../../Images/store.png";
 import advice from "../../Images/advice.png";
 import "./Projects.css";
 
 const projectData = [
+  {
+    imgUrl: twitter,
+    alt: "Twitter clone",
+    projectName: "Twitter Clone",
+    github: "https://github.com/MrDHFM/Twitter_clone",
+    live: "https://twitter-clone35.netlify.app",
+  },
+  {
+    imgUrl: store,
+    alt: "Store",
+    projectName: "Online Store",
+    github: "https://github.com/MrDHFM/Store",
+    live: " https://raju-store.netlify.app/",
+  },
   {
     imgUrl: movie,
     alt: "Movie Ticket Booking",

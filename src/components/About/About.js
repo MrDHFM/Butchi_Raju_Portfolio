@@ -27,8 +27,8 @@ const About = () => {
             <br /> My journey was mainly facilitated by my zeal to learn since I
             took the self taught route.
             <br />
-            Currently i am working as a UI Developer(Reactjs) in Persistent
-            System Limited,Pune .
+            Currently i am working as a UI Developer(React.js) in Persistent
+            System Limited,Hyderabad.
           </p>
         </Card>
       </div>
